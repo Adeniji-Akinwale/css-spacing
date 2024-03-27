@@ -1,0 +1,36 @@
+header{
+    background-color: steelblue;
+    padding: 10px;
+}
+
+.introduction{
+    background-color: burlywood;
+    margin: 10px;
+}
+
+.skill ul li{
+    list-style-type: none;
+    border: 1px solid black;
+    background-color: orange;
+    padding: 10px;
+    margin: 10px;
+}
+
+.contact ul li {
+    background-color: darkgoldenrod;
+    padding: 10px;
+    margin-top: 10px;
+    list-style-type: none;
+}
+
+.contact ul li a{
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      font-size: 14px; /* Increase font size for better readability on small screens */
+      width: 90%;
+    }
+   
+  }
